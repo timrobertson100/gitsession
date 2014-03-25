@@ -19,6 +19,7 @@
     $(el).on('click', dismiss, this.close)
   }
 	// Edited by CMV. Also check the README.txt file
+  // Commentted by Burke for the demo.
   //fede
   Alert.prototype.close = function (e) {
     var $this    = $(this)
