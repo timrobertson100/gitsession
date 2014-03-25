@@ -18,7 +18,7 @@
   var Alert   = function (el) {
     $(el).on('click', dismiss, this.close)
   }
-
+	// Edited by CMV. Also check the README.txt file
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
