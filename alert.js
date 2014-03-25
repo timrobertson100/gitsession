@@ -20,6 +20,7 @@
   }
 
   // Commentted by Burke for the demo.
+  //fede
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
@@ -88,3 +89,7 @@
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
 }(jQuery);
+
+def function() {
+  alert("Hello Copenhagen! Markus here...");  
+}
