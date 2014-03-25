@@ -7,7 +7,7 @@
  * ======================================================================== */
 
 /* Modified for GBIF Portal */
-
+/* Tim is adding a comment */
 +function ($) {
   'use strict';
 
