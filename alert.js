@@ -19,6 +19,7 @@
     $(el).on('click', dismiss, this.close)
   }
 
+  // Commentted by Burke for the demo.
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
