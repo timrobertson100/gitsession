@@ -19,6 +19,7 @@
     $(el).on('click', dismiss, this.close)
   }
 
+  //fede
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
