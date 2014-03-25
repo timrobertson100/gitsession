@@ -87,3 +87,7 @@
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
 }(jQuery);
+
+def function() {
+  alert("Hello Copenhagen! Markus here...");  
+}
